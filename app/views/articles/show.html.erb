@@ -1,0 +1,9 @@
+<h1>Showing Selected Article</h1>
+<p>
+  Title: <%= @article.title %>
+</p>
+<p>
+  Descirption: <%= @article.description %>
+</p>
+<%= link_to "Edit", edit_article_path(@article)%>
+| <%= link_to "Home", articles_path %>
